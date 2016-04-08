@@ -1,5 +1,6 @@
 # QR_Simple
 精简的二维码扫描。
+向伟大的zxing致敬！！
 ```
 //启动二维码扫描Activity
 Intent intent = new Intent(this,CaptureActivity.class);
@@ -16,3 +17,5 @@ intent.getParcelableExtra();//获得扫描到的Bitmap，比较模糊，因为�
 
 ```
 当然，通过修改该Model的内容可轻松实现定制，注释很详细。
+
+注意：由于对资源有配置，所以需要根据情况修改资源文件。
